@@ -62,5 +62,4 @@ PrintMatrix(createMatrixRndInt);
 Console.WriteLine(string.Empty);
 
 DecreasingRows(createMatrixRndInt);
-Console.WriteLine(string.Empty);
 PrintMatrix(createMatrixRndInt);

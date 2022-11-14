@@ -97,7 +97,7 @@ void PrintMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j],4} ");
+            if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j],3} ");
             else Console.WriteLine($"{matrix[i, j],3} ");
         };
     }
